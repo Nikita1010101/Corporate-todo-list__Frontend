@@ -1,0 +1,35 @@
+.home {
+  @apply my-10 text-center;
+
+  .create_task_form {
+    @apply fixed top-0 left-0 right-0 bottom-0 flex items-center justify-center bg-black bg-opacity-60 z-10 transition invisible;
+
+    &.active {
+      @apply visible;
+    }
+  }
+
+  .full_name {
+    @apply my-8 text-2xl font-bold;
+  }
+
+  .btn_new_task {
+    @apply w-2/3 my-5 py-2 px-4 text-white font-medium bg-blue-500 rounded cursor-pointer transition hover:bg-blue-600;
+  }
+
+  .sorting {
+    @apply w-1/2 my-5 mx-auto flex justify-between items-center;
+
+    h4 {
+      @apply font-bold;
+    }
+
+    .options {
+      @apply w-4/5 font-medium;
+    }
+  }
+
+  .tasks_list {
+    @apply my-12;
+  }
+}

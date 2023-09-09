@@ -1,0 +1,7 @@
+.navbar {
+  @apply h-16 px-[8.34%] flex justify-end items-center bg-gray-400;
+
+  h2 {
+    @apply text-xl font-semibold cursor-pointer;
+  }
+}

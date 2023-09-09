@@ -1,0 +1,23 @@
+.task {
+  @apply w-11/12 mx-auto my-9 py-4 px-4 text-center border-2 border-gray-400 border-solid rounded-md;
+
+  > h3 {
+    @apply py-5 text-gray-700 text-lg font-bold; 
+
+    &.completed {
+      @apply text-green-700;
+    } 
+
+    &.overdue {
+      @apply text-red-700;
+    }
+  }
+
+  div {
+    @apply w-full flex;
+
+    h3 {
+      @apply w-1/2 py-3.5 text-center text-lg font-medium;
+    }
+  }
+}
